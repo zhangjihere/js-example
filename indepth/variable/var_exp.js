@@ -1,5 +1,5 @@
-// 
-// Don't use var, that is better
+//
+//Don't use var, that is better
 //
 console.log(x);
 console.log(n===undefined);
@@ -7,6 +7,7 @@ var x;
 var n;
 
 function f() {
+//  var ii=9;
   console.log(i);
   
   for(var i=1;i<=3;i++){
@@ -15,6 +16,7 @@ function f() {
 
 }
 f();
+console.log("var ii:" + ii);
 
 console.log("var scope");
 // var Name scope is function-level scope
