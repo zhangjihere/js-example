@@ -20,8 +20,6 @@ ff.newFunc = function () {
 console.log(ff.newFunc());
 console.log(ff);
 
-//console.log(
-
 console.log("<this> in Global function call");
 const f2 = function () {
     return this;
