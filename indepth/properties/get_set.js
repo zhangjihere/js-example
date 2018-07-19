@@ -10,3 +10,8 @@ bb["toString"] = 2;
 console.log(bb["toString"]);	// 2
 console.log(bb.hasOwnProperty("toString")); //true
 
+// check if a object has own property
+//   obj.hasOwnProperty(key);
+// check if a property is in prototype chain
+//   key in obj
+//   Reflect.has(obj, key)
