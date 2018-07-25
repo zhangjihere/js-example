@@ -1,4 +1,6 @@
 # js-example
 Javascript Example
-Hook
+Hook  
 Add object and inheritance.
+Add object copy
+Add object compare and equality
